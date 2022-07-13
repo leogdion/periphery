@@ -11,7 +11,7 @@ fatalError("This version of Periphery requires Swift >= 5.5.")
 
 var dependencies: [Package.Dependency] = [
     .package(url: "https://github.com/apple/swift-system", from: "1.0.0"),
-    .package(url: "https://github.com/jpsim/Yams", from: "5.0.0"),
+    .package(url: "https://github.com/jpsim/Yams", from: "4.0.0"),
     .package(url: "https://github.com/tadija/AEXML", from: "4.0.0"),
     .package(url: "https://github.com/apple/swift-argument-parser", from: "1.0.0"),
     .package(name: "SwiftIndexStore", url: "https://github.com/kateinoigakukun/swift-indexstore", from: "0.0.0"),
